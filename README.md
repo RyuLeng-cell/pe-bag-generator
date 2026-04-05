@@ -1,17 +1,174 @@
-# pe-bag-generator
-Generate PE bag drawing proposal PDFs from Excel
-PE BAG Generator v1.0
+# 🚀 PE BAG Generator
 
-Free version:
-- Up to 3 rows per run
-- Watermark included
-- Windows EXE
+**Generate professional PE bag drawing PDFs from Excel — fast, accurate, and consistent.**
 
-How to use:
-1. Download the ZIP file
-2. Extract all files
-3. Put your data in input.xlsx
-4. Run the EXE
+---
 
-Pro version:
-Contact me for full version (unlimited rows, no watermark).
+## ✨ Overview
+
+PE BAG Generator is a lightweight Windows tool designed for:
+
+* Packaging engineers
+* Manufacturing teams
+* Sales & proposal teams
+
+👉 Convert Excel data into standardized PE bag drawing PDFs in seconds.
+
+---
+
+## 🎯 Key Benefits
+
+* ⚡ Fast drawing generation
+* 📐 Auto dimension calculation
+* 📄 Consistent drawing format
+* 🔁 Batch processing (Pro version)
+
+---
+
+## 🧩 Features
+
+### 🟢 Free Version
+
+* Generate PE bag drawing PDFs
+* Excel-based input
+* Auto dimensions:
+
+  * Length
+  * Width
+  * Seal width
+  * Distance from seal
+* ❗ Limited to **1 rows per run**
+* ❗ Includes watermark
+
+---
+
+### 🔵 Pro Version
+
+* Unlimited rows (batch processing)
+* No watermark
+* Full production usage
+* Priority support
+
+---
+
+## 📥 Download
+
+👉 Download Free Version from **Releases**
+
+```text
+Go to: Releases → Download ZIP → Extract → Run EXE
+```
+
+---
+
+## 🛠️ How to Use
+
+1. Prepare Excel file:
+
+```text
+input.xlsx
+```
+
+2. Requirements:
+
+* Sheet name = `Sheet1`
+* Column format must follow template
+
+3. Run:
+
+```text
+PE_BAG_Generator.exe
+```
+
+4. Output will be generated in:
+
+```text
+output/
+```
+
+---
+
+## 🧾 Excel Format
+
+### Required Columns
+
+* material
+* thickness
+* length
+* width
+* hex
+* seal width
+* distance from seal
+* program
+
+👉 Sample file:
+
+```text
+/sample/input_sample.xlsx
+```
+
+---
+
+## 🖼️ Logo Customization
+
+You can replace the logo:
+
+```text
+assets/logo.png
+```
+
+### Recommendation:
+
+* PNG format
+* Transparent background
+* Simple design for best visibility
+
+---
+
+## 📦 Project Structure
+
+```text
+pe-bag-generator/
+├── main.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+├── assets/
+│   └── logo.png
+├── sample/
+│   └── input_sample.xlsx
+```
+
+---
+
+## 💼 Pro Version
+
+For full features (no limit, no watermark):
+
+📧 Contact: slleow1982@gmail.com
+
+---
+
+## 🧠 Notes
+
+* No Python required for EXE version
+* Windows only
+* Excel format must follow template
+
+---
+
+## ⭐ Support
+
+If you find this useful:
+
+* ⭐ Star this repo
+* 💬 Share feedback
+* 🚀 Suggest improvements
+
+---
+
+## 📄 License
+
+MIT License — Free version only
+
