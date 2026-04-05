@@ -201,6 +201,20 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# EXE / Release
+*.exe
+*.zip
+
+# PyInstaller
+dist/
+build/
+
+# Output
+output/
+
+# Excel temp
+~$*.xlsx
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
